@@ -1,0 +1,70 @@
+﻿{
+  "custom": {
+    "conditions": [
+      {
+        "id": "pause-game",
+        "scriptName": "PauseGame",
+        "highlight": true
+      },
+      {
+        "id": "resume-game",
+        "scriptName": "ResumeGame",
+        "highlight": true
+      },
+      {
+        "id": "start-from-zero",
+        "scriptName": "StartFromZero",
+        "highlight": true
+      },
+      {
+        "id": "continue-with-score",
+        "scriptName": "ContinueWithScore",
+        "highlight": true
+      }
+    ],
+    "actions": [
+      {
+        "id": "set-progress",
+        "scriptName": "SetProgress",
+        "highlight": true,
+        "params": [
+          {
+            "id": "state",
+            "type": "string"
+          },
+          {
+            "id": "score",
+            "type": "number"
+          },
+          {
+            "id": "level",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "set-level-up",
+        "scriptName": "SetLevelUp",
+        "highlight": true,
+        "params": [
+          {
+            "id": "level",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "set-player-failed",
+        "scriptName": "SetPlayerFailed",
+        "highlight": true,
+        "params": [
+          {
+            "id": "state",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

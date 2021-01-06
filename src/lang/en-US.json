@@ -1,0 +1,61 @@
+﻿{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Digitap SDK.",
+  "text": {
+    "plugins": {
+      "gd_sdk": {
+        "name": "Digitap SDK",
+        "description": "Construct 3 plugin for the Digitap SDK",
+        "help-url": "https://github.com/Digitapeu/game-player-sdk-c3",
+        "properties": {
+          "game-id": {
+            "name": "Game ID",
+            "desc": "Enter your Game ID (optional)"
+          }
+        },
+        "aceCategories": {
+          "custom": "Custom"
+        },
+        "conditions": {
+          "pause-game": {
+            "list-name": "Pause game during advertisement",
+            "display-text": "Advertisement is active.",
+            "description": "Pause game during advertisement"
+          },
+          "resume-game": {
+            "list-name": "Resume game after advertisement",
+            "display-text": "Advertisement is not active.",
+            "description": "Resume game after advertisement"
+          },
+          "start-from-zero": {
+            "list-name": "Should the game start from zero",
+            "display-text": "Start game from zero",
+            "description": "Inform you if the game should restart from zero"
+          },
+          "continue-with-score": {
+            "list-name": "Should the game continue with the current score",
+            "display-text": "Continue with current score",
+            "description": "Inform you if the game should restart from the last score available"
+          }
+        },
+        "actions": {
+          "set-progress": {
+            "list-name": "Set game progress",
+            "display-text": "Set game progress",
+            "description": "Tries to set the current score, level and state of the game."
+          },
+          "set-level-up": {
+            "list-name": "Set game level up",
+            "display-text": "Set game level up",
+            "description": "Tries to update the current level of the game."
+          },
+          "set-player-failed": {
+            "list-name": "Set player failed the game",
+            "display-text": "Set player failed the game",
+            "description": "Tries to set the game as failed by the player."
+          }
+        }
+      }
+    }
+  }
+}
