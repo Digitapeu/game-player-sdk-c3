@@ -1,6 +1,6 @@
 # GameDistribution SDK for Construct 3
 
-##### For instructions on using the plugin in your game, please [have a look a the wiki](https://github.com/GameDistribution/gd-sdk-contstruct-3/wiki/Installation-and-usage).
+##### For instructions on using the plugin in your game, please [have a look a the wiki](https://github.com/Digitapeu/game-player-sdk-c3).
 
 --- 
 

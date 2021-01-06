@@ -3,7 +3,7 @@
   "fileDescription": "Strings for Digitap SDK.",
   "text": {
     "plugins": {
-      "gd_sdk": {
+      "digitap_sdk": {
         "name": "Digitap SDK",
         "description": "Construct 3 plugin for the Digitap SDK",
         "help-url": "https://github.com/Digitapeu/game-player-sdk-c3",
