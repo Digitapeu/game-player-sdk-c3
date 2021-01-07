@@ -21,24 +21,25 @@
       digitapSDK('init', true, true);
 
       // Handle the events from our GameBox
+      let sdk = this
       digitapSDK('setCallback', 'afterStartGameFromZero', function () {
         // start the game fresh, from zero
-        this._continueWithScore = false;
+        sdk._continueWithScore = false;
       });
 
       digitapSDK('setCallback', 'afterContinueWithCurrentScore', function (score) {
         // user paid for extra live, continue game from last score
-        this._continueWithScore = true;
+        sdk._continueWithScore = true;
       });
 
       digitapSDK('setCallback', 'afterStartGame', function () {
         // advertisement done, resume game logic and unmute audio
-        this._adPlaying = false;
+        sdk._adPlaying = false;
       });
 
       digitapSDK('setCallback', 'afterPauseGame', function () {
         // pause game logic / mute audio
-        this._adPlaying = true;
+        sdk._adPlaying = true;
       });
 
       // Load the SDK from the CDN
