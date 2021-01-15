@@ -1,7 +1,6 @@
 "use strict";
-
 {
-  C3.Plugins.DIGITAP_SDK.Instance = class SingleGlobalInstance extends C3.SDKInstanceBase {
+  C3.Plugins.DIGITAP_SDK.Instance = class DIGITAP_SDK_Instance extends C3.SDKInstanceBase {
     constructor(inst, properties) {
       super(inst);
 

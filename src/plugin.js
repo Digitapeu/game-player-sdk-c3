@@ -1,5 +1,4 @@
 "use strict";
-
 {
   ////////////////////////////////////////////
   // The plugin ID is how Construct identifies different kinds of plugins.
@@ -12,10 +11,10 @@
   const PLUGIN_ID = "DIGITAP_SDK";
   ////////////////////////////////////////////
 
-  const PLUGIN_VERSION = "1.0.0";
+  const PLUGIN_VERSION = "1.0.1";
   const PLUGIN_CATEGORY = "monetisation";
 
-  const PLUGIN_CLASS = (SDK.Plugins.DIGITAP_SDK = class MyCustomPlugin extends SDK.IPluginBase {
+  const PLUGIN_CLASS = (SDK.Plugins.DIGITAP_SDK = class DIGITAP_SDK_Plugin extends SDK.IPluginBase {
     constructor() {
       super(PLUGIN_ID);
 
@@ -37,7 +36,6 @@
       this._info.SetProperties([new SDK.PluginProperty("text", "game-id", "")]); // @todo
 
       SDK.Lang.PopContext(); // .properties
-
       SDK.Lang.PopContext();
     }
   });

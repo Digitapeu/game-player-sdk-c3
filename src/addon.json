@@ -3,12 +3,16 @@
   "type": "plugin",
   "name": "Digitap SDK",
   "id": "DIGITAP_SDK",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Digitap",
   "website": "https://www.digitap.eu",
   "documentation": "https://github.com/Digitapeu/game-player-sdk-c3",
   "description": "Construct 3 plugin for the Digitap SDK",
-  "editor-scripts": ["plugin.js", "type.js", "instance.js"],
+  "editor-scripts": [
+    "plugin.js", 
+    "type.js", 
+    "instance.js"
+  ],
   "file-list": [
     "c3runtime/plugin.js",
     "c3runtime/type.js",
@@ -19,6 +23,7 @@
     "lang/en-US.json",
     "aces.json",
     "addon.json",
+    "icon.svg",
     "instance.js",
     "plugin.js",
     "type.js"

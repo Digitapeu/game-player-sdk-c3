@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "./node_modules/http-server/bin/http-server ./src -p8080 --cors -c-1",
     "compile": "cd src && zip -r ../dist/digitap-sdk.c3addon ./*"

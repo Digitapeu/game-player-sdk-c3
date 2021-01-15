@@ -1,9 +1,8 @@
 "use strict";
-
 {
   const PLUGIN_CLASS = SDK.Plugins.DIGITAP_SDK;
 
-  PLUGIN_CLASS.Instance = class MyCustomInstance extends SDK.IInstanceBase {
+  PLUGIN_CLASS.Instance = class DIGITAP_SDK_Instance extends SDK.IInstanceBase {
     constructor(sdkType, inst) {
       super(sdkType, inst);
     }

@@ -1,11 +1,11 @@
 ﻿{
   "languageTag": "en-US",
-  "fileDescription": "Strings for Digitap SDK.",
+  "fileDescription": "Strings for DIGITAP_SDK",
   "text": {
     "plugins": {
       "digitap_sdk": {
         "name": "Digitap SDK",
-        "description": "Construct 3 plugin for the Digitap SDK",
+        "description": "Construct 3 plugin for the Digitap SDK.",
         "help-url": "https://github.com/Digitapeu/game-player-sdk-c3",
         "properties": {
           "game-id": {
@@ -42,17 +42,43 @@
           "set-progress": {
             "list-name": "Set game progress",
             "display-text": "Set game progress",
-            "description": "Tries to set the current score, level and state of the game."
+            "description": "Tries to set the current score, level and state of the game.",
+            "params": {
+              "state": {
+                "name": "State",
+                "desc": "The state of your game, a string."
+              },
+              "score": {
+                "name": "Score",
+                "desc": "The new score when it increases."
+              },
+              "level": {
+                "name": "Level",
+                "desc": "The current level of the game."
+              }
+            }
           },
           "set-level-up": {
             "list-name": "Set game level up",
             "display-text": "Set game level up",
-            "description": "Tries to update the current level of the game."
+            "description": "Tries to update the current level of the game.",
+            "params": {
+              "level": {
+                "name": "Level",
+                "desc": "The new level of the game."
+              }
+            }
           },
           "set-player-failed": {
             "list-name": "Set player failed the game",
             "display-text": "Set player failed the game",
-            "description": "Tries to set the game as failed by the player."
+            "description": "Tries to set the game as failed by the player.",
+            "params": {
+              "state": {
+                "name": "State",
+                "desc": "The new state of the game."
+              }
+            }
           }
         }
       }
