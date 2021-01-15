@@ -41,7 +41,7 @@
         "actions": {
           "set-progress": {
             "list-name": "Set game progress",
-            "display-text": "Set game progress",
+            "display-text": "Set game progress to state {0}, score {1} and level {2}",
             "description": "Tries to set the current score, level and state of the game.",
             "params": {
               "state": {
@@ -60,7 +60,7 @@
           },
           "set-level-up": {
             "list-name": "Set game level up",
-            "display-text": "Set game level up",
+            "display-text": "Set game level to {0}",
             "description": "Tries to update the current level of the game.",
             "params": {
               "level": {
@@ -71,7 +71,7 @@
           },
           "set-player-failed": {
             "list-name": "Set player failed the game",
-            "display-text": "Set player failed the game",
+            "display-text": "Set player failed the game with state {0}",
             "description": "Tries to set the game as failed by the player.",
             "params": {
               "state": {
